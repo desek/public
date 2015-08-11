@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "001simplevmsa"
+    },
+    "adminUsername": {
+      "value": "uberadmin"
+    },
+    "adminPassword": {
+      "value": "Passw0rd!"
+    },
+    "dnsNameForPublicIP": {
+      "value": "001simplevmsa"
+    }
+  }
+}
